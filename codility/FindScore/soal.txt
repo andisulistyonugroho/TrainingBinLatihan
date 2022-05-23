@@ -1,0 +1,16 @@
+Test Result
+T[0] = 'test1' R[0] = 'OK'
+T[1] = 'test2' R[1] = 'Wrong Answer'
+T[2] = 'test3b' R[2] = 'Wrong Answer'
+T[3] = 'test3a' R[3] = 'OK'
+T[4] = 'test4a' R[4] = 'OK'
+T[5] = 'test4b' R[5] = 'OK'
+
+Dik: 
+1. Test with same name and has suffix of lowercase letter from a to z is one group
+2. Test without lowercase letter suffix is a single group
+3. If in a group all result is 'OK' then the group is passing the test
+4. Total point is number of group that passing the test times 100 device by number of group rounded to floor
+
+Dit: 
+1. What is the total point?
